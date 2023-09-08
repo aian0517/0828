@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原神</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a href="#top" class="navbar-brand">
+                <img src="" alt="">原神
+            </a>
+            <div class="nav order-lg-2 ms-auto me-lg-0 me-3">
+                <a href="" class="nav-link px-2">
+                    <div class="df aic form-check form-switch p-0">
+                        <label for="sun-check" class="form-check-label">
+                            <img src="./images/sun.png" alt="" class="sun nav-icon">
+                        </label>
+                        <input class="form-check-input mx-2" type="checkbox" role="switch" id="sun-check" >
+                        <label for="sun-check">
+                            <img src="./images/moon.png" alt="" class="moon nav-icon">
+                        </label>
+                    </div>
+                </a>
+                <a href="#body6" class="nav-link px-lg-3 px-2">
+                    <img src="./images/nav-icon-email.png" alt=""class="nav-icon">
+                </a>
+                <div class="nav-link px-lg-3 px-2 nav-login-icon text-warning df jcc aic fw-bold">
+                    <img src="./images/nav-icon-login.png" alt="" class="nav-icon">
+                </div>
+                <div class="nav-link px-lg-3 px-2" onclick="window.open('index.html','_blank','top=50,left=50,width=500,height=700')">
+                    <img src="./images/nav-icon-phone.png" alt="" class="nav-icon">
+                </div>
+                <a href="#body4" class="nav-link px-lg-3 px-2" data-bs-toggle="offcanvas" data-bs-target="#shop-offcanvas">
+                    <img src="./images/nav-icon-shop.png" alt="" class="nav-icon">
+                </a>
+
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-lg-5 ms-0">
+                    <li class="nav-item mx-2">
+                        <a href="#body1" class="nav-link f-6">關於原神</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#body2" class="nav-link f-6">遊戲玩法</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#body3" class="nav-link f-6">角色介紹</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#body4" class="nav-link f-6">商品訂購</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#body5" class="nav-link f-6">深淵常用角分析</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#body7" class="nav-link f-6">服務中心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="min-vh-100">
+        <div class="swiper header-swiper swiper-no-swiping">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/cover-1.png" alt="" class="cover-img">
+                    <div class="head-carousel-text">
+                        <h1 class="fw-bold text-light f-cover">原　　神</h1>
+                        <p class="f-4 color2 fw-bold">3.4版本全新角色艾爾海森</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-2.png" alt="" class="cover-img">
+                    <div class="head-carousel-text">
+                        <h1 class="fw-bold text-light f-cover">原　　神</h1>
+                        <p class="f-4 color2 fw-bold">4.0全新地圖楓丹現已開放</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-3.png" alt="" class="cover-img">
+                    <div class="head-carousel-text">
+                        <h1 class="fw-bold text-light f-cover">原　　神</h1>
+                        <p class="f-4 color2 fw-bold">2.7版本全新角色夜蘭</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-1.png" alt="" class="cover-img"> 
+                    <div class="head-carousel-text">
+                        <h1 class="fw-bold text-light f-cover">原　　神</h1>
+                        <p class="f-4 color2 fw-bold">3.6版本全新角色艾爾海森</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-2.png" alt="" class="cover-img">
+                    <div class="head-carousel-text">
+                        <h1 class="fw-bold text-light f-cover">原　　神</h1>
+                        <p class="f-4 color2 fw-bold">4.0全新地圖楓丹現已開放</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-3.png" alt="" class="cover-img">
+                    <div class="head-carousel-text">
+                        <h1 class="fw-bold text-light f-cover">原　　神</h1>
+                        <p class="f-4 color2 fw-bold">2.7版本全新角色夜蘭</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="swiper header-swiper-smll">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/cover-2.png" alt="" class="header-swiper-smll-img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-3.png" alt="" class="header-swiper-smll-img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-1.png" alt="" class="header-swiper-smll-img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-2.png" alt="" class="header-swiper-smll-img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-3.png" alt="" class="header-swiper-smll-img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/cover-1.png" alt="" class="header-swiper-smll-img">
+                </div>
+            </div>
+            <div class="header-swiper-button">
+                <div class="swiper-button-next swiper-header-next button"></div>
+                <div class="swiper-button-prev swiper-header-prev button"></div>
+            </div>
+        </div>
+    </header>
+    <section id="body1" class="position-relative">
+        <div class="container py-5 ">
+            <h1 class="f-1 text-center color2 fw-bold">關於原神</h1>
+            <div class="row py-lg-5 py-3 gx-5 my-lg-5 my-3">
+                <div class="col-lg-7 col-12 mb-5">
+                    <div class="body1-text-content">
+                        <p class="f-5 body1-text">
+                                由<span class="color1 fw-bold">米哈遊</span>開發的動作角色扮演遊戲，於<span class="color1 fw-bold">2020年9月</span>
+                                登陸Microsoft Windows、Android、iOS、PlayStation4，2021年4月在PlayStation 5上線。遊戲具有動漫風格的
+                                <span class="color1 fw-bold">開放世界環境</span>，採用基於抽卡的基本免費及道具收費制。
+                                遊戲劇情於虛構世界的提瓦特大陸上展開，該世界分成七個國家，每個國家都以一種元素為主題，並由一位神明所統治。遊戲劇情的主角為「旅行者」，
+                                是一對在無數個世界中旅行的兄妹，因遭遇陌生神明阻攔在提瓦特被迫分離。玩家將扮演旅行者，為了尋找自己失散的唯一血親，並與派蒙一同遊歷七國。
+                            </p>
+                        <a href="#body2" class="btn body1-btn button">查看更多內容↓</a>
+                    </div>
+                    <img src="./images/body1-img.png" alt="" class="body1-img">
+                    <img src="./images/body1-img2.png" alt="" class="body1-img2">
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div class="body1-swiper-box">
+                        <div class="swiper body1-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/body1-cude-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/body1-cude-2.webp" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/body1-cude-3.jpeg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/body1-cude-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination body1-pagination"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body2">
+        <div class="container py-5">
+            <h1 class="f-1 fw-bold text-center color2">遊戲玩法</h1>
+            <div class="row py-5 my-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-5">
+                    <div class="body2-content">
+                        <div class="df jcc aic">
+                            <div class="body2-click1 body2-click f-3 active">戰鬥</div>
+                            <div class="body2-click2 body2-click f-3">探險</div>
+                        </div>
+                        <div class="df jcc aic">
+                            <div class="body2-click3 body2-click f-3">技能</div>
+                            <div class="body2-click4 body2-click f-3">抽卡</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12 df jcc aic">
+                    <div class="card body2-card p-3">
+                        <div class="df jcc aic">
+                            <img src="./images/body2-click.png" alt="" class="body2-card-img">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h1 class="body2-card-title f-3 text-center fw-bold mb-3">戰鬥玩法</h1>
+                            </div>
+                            <div class="card-text">
+                                <p class="body2-card-text f-6">
+                                    玩家一次可以選擇四名角色參與戰鬥，並且在戰鬥中可以快速切換。角色可以通過各種方式增強他們的力量，例如提高角色的等級，改進角色裝備的聖遺物和武器。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body3">
+        <div class="swiper body3-swiper-bg">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/body3-bg.png" alt=""></div>
+                <div class="swiper-slide"><img src="./images/body3-bg2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./images/body3-bg3.png" alt=""></div>
+            </div>
+        </div>
+        <div class="container py-5 min-vh-100">
+            <h1 class="f-1 color2 fw-bold text-center mb-lg-5 mb-3 position-relative" style="z-index: 999;">角色介紹</h1>
+            <div class="row py-5">
+                <div class="col-lg-7 col-12 mb-lg-0 mb-3 py-lg-0 py-3 df jcc aic">
+                    <div class="swiper body3-swiper-text">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide text-light swiper-no-swiping">
+                                <h1 class="f-2 text-center mb-3 fw-bold lep">艾爾海森</h1>
+                                <p class="f-5 m-0">
+                                    <span class="color2 fw-bold f-4 lep">介紹：</span>須彌教令院現任書記官，有過人的智慧與才能。生活得自由自在，一般人基本找不到他
+                                </p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">稀有度：</span>⭐⭐⭐⭐⭐</p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">生日：</span>2月11日</p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">屬性：</span>草系單手劍</p>
+                            </div>
+                            <div class="swiper-slide text-light swiper-no-swiping">
+                                <h1 class="f-2 text-center mb-3 fw-bold lep">夜蘭</h1>
+                                <p class="f-5 m-0">
+                                    <span class="color2 fw-bold f-4 lep">介紹：</span>自稱供職於總務司的神秘人士，卻又是總務司名錄裡的「不存在之人」
+                                </p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">稀有度：</span>⭐⭐⭐⭐⭐</p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">生日：</span>4月20日</p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">屬性：</span>水系弓</p>
+                            </div>
+                            <div class="swiper-slide text-light swiper-no-swiping">
+                                <h1 class="f-2 text-center mb-3 fw-bold lep">神里綾華</h1>
+                                <p class="f-5 m-0">
+                                    <span class="color2 fw-bold f-4 lep">介紹：</span>稻妻「社奉行」神裡家的大小姐。端莊而文雅，聰慧又堅韌
+                                </p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">稀有度：</span>⭐⭐⭐⭐⭐</p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">生日：</span>9月28日</p>
+                                <p class="f-5 m-0"><span class="color2 fw-bold f-4 lep">屬性：</span>冰系單手劍</p>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next body3-navigation-next button"></div>
+                        <div class="swiper-button-prev body3-navigation-prev button"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 df jcc aic">
+                    <div class="swiper body3-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/body3-1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/body3-2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/body3-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body4">
+        <img src="./images/shop-bg.png" alt="" class="body4-bg">
+        <img src="./images/shop-bg2.png" alt="" class="body4-bg-2">
+        <div class="container">
+            <div class="row py-5">
+                <h1 class="f-1 color2 fw-bold text-center mb-lg-5 mb-3">商品訂購</h1>
+                <div class="col-lg-12">
+                    <div class="swiper body4-swiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-scrollbar body4-scrollbar"></div>
+                        <div class="swiper-button-next body4-navigation-next button"></div>
+                        <div class="swiper-button-prev body4-navigation-prev button"></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-6 col-12 offset-lg-6 df jcc aic">
+            <div class="body4-login df jcc aic fdc">
+                <h1 class="f-4">還不是會員嗎?</h1>
+                <button class="btn mb-3 button shop-login-btn">點我登入/註冊會員</button>
+                <p class="mb-0 f-6">享會員專屬優惠</p>
+            </div>
+        </div>
+       
+    </section>
+    <section id="body5">
+        <div class="container py-5">
+            <h1 class="f-1 color2 fw-bold text-center mb-lg-5 mb-3">深淵常用角色</h1>
+            <div class="row">
+                <div class="col-lg-6 col-12 df jcc aic mb-lg-0 mb-5">
+                    <div class="body5-text">
+                        <p class="f-5">如右圖顯示，在4.0深淵中草神納西妲出現率最高，第二是楓原萬葉，其次是珊瑚宮心海、夜蘭、艾爾海森</p>
+                        <p class="f-5 color1 fw-bold">點擊圖表查看相關資訊→</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 df jcc aic">
+                    <canvas id="mychart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body6" class="min-vh-100">
+        <div class="container py-5">
+            <h1 class="f-1 color2 fw-bold text-center mb-lg-5 mb-3">訪客留言意見箱</h1>
+            <div class="row py-5">
+                <div class="col-lg-5 col-12 mb-lg-0 mb-3">
+                    <div class="messages-input-box">
+                        <form onsubmit="messages()">
+                            <div class="my-3">
+                                <label for="" class="my-3 color1 fw-bold f-6">姓名</label>
+                                <input type="text" class="messages-input messages-name" placeholder="姓名" required>
+                            </div>
+                            <div class="my-3">
+                                <label for="" class="my-3 color1 fw-bold f-6">電子郵件</label>
+                                <input type="email" class="messages-input messages-email" placeholder="電子郵件" required>
+                            </div>
+                            <div class="my-3">
+                                <label for="" class="my-3 color1 fw-bold f-6">留言</label>
+                                <input type="text" class="messages-input messages-content" placeholder="留言" required>
+                            </div>
+                            <div class="df justify-content-between aic my-5">
+                                <button class="btn px-3 button" type="reset">重設</button>
+                                <button class="btn px-3 button" type="submit">送出</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12">
+                    <div class="messages-box">
+                        <h1 class="f-3 fw-bold text-center mb-3 text-light">精彩留言</h1>
+                        <div class="swiper body6-swiper">
+                            <div class="swiper-wrapper body6-swiper-wrapper">
+                                <div class="swiper-slide df jcc aic">
+                                    <div class="card df jcc fdc p-3 text-light">
+                                        <div class="df justify-content-between aic mb-3">
+                                            <h1 class="f-5 fw-bold">好先生</h1>
+                                            <h1 class="f-6">qaz013524@gmail.com</h1>
+                                        </div>
+                                        <p class="f-6">這網頁做的真棒，完美體現原神這款遊戲的介紹</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide df jcc aic">
+                                    <div class="card df jcc fdc p-3 text-light">
+                                        <div class="df justify-content-between aic mb-3">
+                                            <h1 class="f-5 fw-bold">鍾先生</h1>
+                                            <h1 class="f-6">sweip3423@gmail.com</h1>
+                                        </div>
+                                        <p class="f-6">我乃岩王帝君</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination body6-pagination"></div>
+                            <div class="swiper-button-next body6-navigation-next button"></div>
+                            <div class="swiper-button-prev body6-navigation-prev button"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body7">
+        <div class="container py-5">
+            <h1 class="f-1 color2 fw-bold  mb-lg-5 mb-3 title-bg">服務中心</h1>
+            <div class="row ">
+                <div class="col-lg-6 col-12  df jcc mb-lg-0 mb-3">
+                    <div class="information text-light df jcc  fdc"> 
+                        <h1 class="fw-bold f-3 text-center mb-5">聯絡資訊</h1>
+                        <p class="f-6">電話：0900-000-000</p>
+                        <p class="f-6">電子郵件：wded1280@gmail.com</p>
+                        <p class="f-6">地址：新北市三重區中正北路560巷</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="accordion" id="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="accordion-header-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                    <h1 class="f-6 m-0">原神強度角色分析</h1>
+                                  </button>
+                            </div>
+                            <div class="accordion-collapse collapse show" id="accordion-1" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p class="f-6 m-0">平民玩家首選草神草神納西妲、鐘離、夜蘭、雷神、楓原萬葉</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="accordion-header-2">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-2">
+                                    <h1 class="f-6 m-0">網頁問題</h1>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" id="accordion-2" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p class="f-6 m-0">如果對本網站有任何的問題或回報錯誤，可以到我們的<a href="#body6">問題留言板</a>留言，我們會盡快回復您的訊息</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="accordion-header-3">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-3">
+                                    <h1 class="f-6 m-0">商品訂購</h1>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" id="accordion-3" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p class="f-6 m-0">商品都將於送出訂單後，以簡訊通知您，如有任何問題都可以與我們客服聯絡</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="df jcc aic py-1" >
+        <p class="f-6 text-light m-0 text-center lep fw-bold">本網站使用CSS+jQuery製作,具有響應式RWD頁面 <br> &copy;原神</p>
+    </footer>
+
+    <!--  -->
+    <a href="#top" class="top-btn button" >
+        <div class="top-icon"></div>
+    </a>
+    <div class="robot-btn button">
+        <img src="./images/robot-img.png" alt="">
+    </div>
+    <div class="robot-box">
+        <div class="robot-header text-light">
+            <h1 class="f-4 m-0 fw-bold">網頁小男孩</h1>
+            <button class="btn-close btn-close-white"></button>
+        </div>
+        <div class="robot-body">
+            <div class="mb-3">
+                <img src="./images/robot-img.png" alt="">
+                <div class="robot-body-content-1">
+                    <span class="text-light">你好~我是本網站的維護小男孩，您有任何問題都可以詢問我喔~(～￣▽￣)～</span>
+                </div>
+            </div>
+        </div>
+        <div class="robot-footer">
+            <input type="text" list="robot-input-data" class="robot-input">
+            <button class="btn robot-submit button">送出</button>
+            <datalist id="robot-input-data">
+                <option value="原神">
+                <option value="最強角色">
+                <option value="我抽卡都歪怎麼解決">
+            </datalist>
+        </div>
+    </div>
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-end" id="shop-offcanvas">
+        <div class="offcanvas-header">
+            <h1 class="f-3 fw-bold m-0">購物車</h1>
+            <button class="btn-close button" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body shop-offcanvas-body">
+        </div>
+        <div class="offcanvas-footer">
+            <p class="mb-3 color2 fw-bold">請注意!一但送出就不可更改 <br>
+                請注意!檢查訂單內容是否正確</p>
+            <div class="df justify-content-between aic mb-3 pe-3">
+                <h1 class="f-3 fw-bold mb-0">總價錢：<span class="total-price">0</span> 元</h1>
+                <button class="btn button">送出</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="f-3 m-0 fw-bold">會員登入</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="my-3">
+                        <div class="mb-3 df jcc fdc">
+                            <label for="" class="mb-3 f-5">帳號:</label>
+                            <input type="text" placeholder="電子郵件或電話號碼" class="login_input">
+                        </div>
+                        <div class="mb-3 df jcc fdc">
+                            <label for="" class="mb-3 f-5">密碼:</label>
+                            <input type="password" placeholder="請輸入密碼" class="login_input">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#register">註冊</button>
+                    <button class="btn login-submit" data-bs-dismiss="modal">登入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="register">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="f-3 m-0 fw-bold">會員註冊</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="my-3">
+                        <div class="mb-3 df jcc fdc">
+                            <label for="" class="mb-3 f-5">名稱:</label>
+                            <input type="text" placeholder="請輸入名稱" class="login_input">
+                        </div>
+                        <div class="mb-3 df jcc fdc">
+                            <label for="" class="mb-3 f-5">帳號:</label>
+                            <input type="text" placeholder="請輸入帳號" class="login_input">
+                        </div>
+                        <div class="mb-3 df jcc fdc">
+                            <label for="" class="mb-3 f-5">密碼:</label>
+                            <input type="password" placeholder="請輸入5~8位密碼" class="login_input">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#login">註冊</button>
+                    <!-- <button class="btn login-submit" data-bs-dismiss="modal">登入</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="notify">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="f-3 m-0 fw-bold">系統通知</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="f-5">您已登入會員</h1>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-bs-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.js"></script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+@media (max-width:1280px){
+    .body2-card{
+        width: 90%;
+    }
+    /* .body3-swiper-text{
+        height: 400px;
+    } */
+    .head-carousel-text{
+        top: 35%;
+    }
+    .header-swiper-button{
+        bottom: 10%;
+    }
+    .header-swiper-smll{
+        bottom:0;
+        padding: 0 10px;
+    }
+}
